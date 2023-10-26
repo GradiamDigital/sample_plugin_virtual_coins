@@ -1,0 +1,111 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+#acf-group_vc1 .acf-table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: initial;
+}
+
+#acf-group_vc1 .acf-table td,  .acf-field-vc1 .acf-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#acf-group_vc1 .acf-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+
+#acf-group_vc1 .acf-table tr:hover {
+    background-color: #ddd;
+}
+
+
+#acf-group_vc1 .acf-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #c76e02;
+    color: white;
+}
+
+#acf-group_vc1 .acf-fields .-left > .acf-field::before {
+    background-color:#c76e02;
+    width: 20%;
+}
+
+#acf-group_vc1 .acf-label {
+    background-color: #f2f2f2;
+    padding: 1rem;
+}
+
+#acf-group_vc1 textarea {
+    height: 30px;
+}
+
+#acf-group_vc1 .acf-table thead tr th:nth-child(3),
+#acf-group_vc1 .acf-table thead tr th:nth-child(4),
+#acf-group_vc1 .acf-table thead tr th:nth-child(5),
+#acf-group_vc1 .acf-table thead tr th:nth-child(6) {
+    width: 10% !important;
+}
+
+#acf-group_vc1 .acf-table thead tr th:nth-child(1) {
+    width: 20% !important;
+}
+
+#acf-group_vc1 .acf-table thead tr th:nth-child(2) {
+    width: 40% !important;
+}
+
+#acf-group_vc1 .acf-table tbody tr td:nth-child(3),
+#acf-group_vc1 .acf-table tbody tr td:nth-child(4),
+#acf-group_vc1 .acf-table tbody tr td:nth-child(5),
+#acf-group_vc1 .acf-table tbody tr td:nth-child(6) {
+    width: 10% !important;
+}
+
+#acf-group_vc1 .acf-table tbody tr td:nth-child(1) {
+    width: 20% !important;
+}
+
+#acf-group_vc1 .acf-table tbody tr td:nth-child(2) {
+    width: 40% !important;
+}
+
+.acf-field-vc1-coins-conversion {
+    width: 20%;
+}
+
+.acf-field-vc1-dailycheckin {
+    width: 50%;
+}
+
+.acf-field-vc1-dailycheckin .acf-input .acf-fields {
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.acf-field-vc1-dailycheckin .acf-input .acf-fields .acf-field::before {
+    display: none;
+}
+.acf-field-vc1-dailycheckin .acf-input .acf-fields .acf-field::after {
+    display: none;
+}
+
+
+.acf-field-vc1-dailycheckin .acf-input .acf-fields .acf-field .acf-label {
+    padding: 5px 1rem !important;
+    width: 50%;
+}
+.acf-field-vc1-dailycheckin .acf-input .acf-fields .acf-field .acf-input {
+    width: 50%;
+}
+
+
+
